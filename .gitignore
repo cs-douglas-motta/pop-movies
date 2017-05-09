@@ -36,3 +36,5 @@ proguard/
 # Log Files
 *.log
 /captures
+
+app/src/main/res/values/secrets.xml
