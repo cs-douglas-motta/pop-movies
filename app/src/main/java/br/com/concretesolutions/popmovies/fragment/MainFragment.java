@@ -30,7 +30,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * create an instance of this fragment.
  */
 public class MainFragment extends Fragment {
-    private static final String API_KEY ="c8d917f61c2a2dfa450cefb12c62bbe9";
     private static final String API_URL_BASE = "https://api.themoviedb.org/3/";
 
     private RecyclerView rvMovies;
@@ -72,7 +71,7 @@ public class MainFragment extends Fragment {
 
             MovieService movieService = retrofit.create(MovieService.class);
 
-            Call<ListMovies> listMovies = movieService.listPopularMovies(API_KEY);
+            Call<ListMovies> listMovies = movieService.listPopularMovies(getString(R.string.api_key));
 
             listMovies.enqueue(new Callback<ListMovies>() {
                 @Override
