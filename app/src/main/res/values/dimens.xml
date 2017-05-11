@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation_tiny">1dp</dimen>
+    <dimen name="elevation_micro">2dp</dimen>
+    <dimen name="elevation_small">4dp</dimen>
+    <dimen name="elevation_normal">6dp</dimen>
+</resources>

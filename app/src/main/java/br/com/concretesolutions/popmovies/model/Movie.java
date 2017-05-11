@@ -12,6 +12,8 @@ import java.util.Date;
  */
 
 public class Movie implements Parcelable {
+    public static final String URL_BASE_POSTER_MOVIE = "https://image.tmdb.org/t/p/w500";
+
     @SerializedName("id")
     private int id;
 
