@@ -1,4 +1,4 @@
-package br.com.concretesolutions.popmovies.fragment;
+package br.com.concretesolutions.popmovies.ui.settings;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -9,10 +9,6 @@ import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
 import br.com.concretesolutions.popmovies.R;
-
-/**
- * Created by douglasmotta on 09/05/17.
- */
 
 public class SettingsFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener {
     @Override

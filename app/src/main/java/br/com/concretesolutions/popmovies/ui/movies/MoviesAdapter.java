@@ -1,4 +1,4 @@
-package br.com.concretesolutions.popmovies.adapter;
+package br.com.concretesolutions.popmovies.ui.movies;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -12,11 +12,7 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 import br.com.concretesolutions.popmovies.R;
-import br.com.concretesolutions.popmovies.model.Movie;
-
-/**
- * Created by douglasmotta on 08/05/17.
- */
+import br.com.concretesolutions.popmovies.data.model.Movie;
 
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesViewHolder> {
 

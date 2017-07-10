@@ -1,4 +1,4 @@
-package br.com.concretesolutions.popmovies.model;
+package br.com.concretesolutions.popmovies.data.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,10 +6,6 @@ import android.os.Parcelable;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Date;
-
-/**
- * Created by douglasmotta on 08/05/17.
- */
 
 public class Movie implements Parcelable {
     public static final String URL_BASE_POSTER_MOVIE = "https://image.tmdb.org/t/p/w500";
